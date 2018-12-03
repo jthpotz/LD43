@@ -11,7 +11,7 @@ public class Fish extends Leaf{
 				"Bluefin Tuna",
 				"Rainbow Trout",
 				"Minnow",
-				"Goldfins",
+				"Goldfish",
 				"Carp",
 				"Catfish",
 				"Mackerel"

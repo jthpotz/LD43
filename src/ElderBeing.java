@@ -45,7 +45,7 @@ public class ElderBeing {
 	}
 	
 	public String getDescription() {
-		return "Among " + attributes.length + "qualities, " + name + " cares about:\n" +  attributes[Randomization.RandomInt(0, attributes.length)].description;
+		return "Among " + attributes.length + " qualities, " + name + " cares about:\n" +  attributes[Randomization.RandomInt(0, attributes.length)].description;
 	}
 	
 	public int checkObject(String object) {
