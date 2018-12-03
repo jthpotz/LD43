@@ -7,7 +7,7 @@ public class Node {
 	static final String[] types = new String[]{
 		"Object",
 		"LivingThings",
-		"Inanimate Objects",
+		"InanimateObjects",
 		"Animals",
 		"Plants",
 		"Mammals",
@@ -37,9 +37,9 @@ public class Node {
 		switch(name) {
 		case "Object":
 			addNode("LivingThings");
-			addNode("Inanimate Objects");
+			addNode("InanimateObjects");
 			break;
-		case "Inanimate Objects":
+		case "InanimateObjects":
 			addNode("Foods");
 			addNode("Tools");
 			n = new Furniture();

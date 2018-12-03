@@ -134,7 +134,7 @@ public class MainGame {
 			System.out.println("In gratitude for your loyal service, the beings fufil your every wish for the rest of your days.");
 		}
 		System.out.println("Thanks for playing!!");
-		System.exit(0);
+		//System.exit(0);
 	}
 	
 //	private static void Test(){
