@@ -111,6 +111,7 @@ public class MainGame {
 				System.out.println();
 				Inventory.inventory.objects.add(Node.root.getRandomObject());
 				Calendar.calendar.nextDay();
+				observed = false;
 				return;
 			} else {
 				System.out.println("Sorry that is not a vaild object to sacrifice.");
